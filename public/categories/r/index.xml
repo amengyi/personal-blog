@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>R on Hugo Zen theme</title>
+    <link>http://localhost:4321/categories/r/</link>
+    <description>Recent content in R on Hugo Zen theme</description>
+    <generator>Hugo</generator>
+    <language>en-GB</language>
+    <lastBuildDate>Tue, 01 Dec 2020 21:13:14 -0500</lastBuildDate>
+      <atom:link href="http://localhost:4321/categories/r/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello R Markdown</title>
+      <link>http://localhost:4321/post/2020-12-01-r-rmarkdown/</link>
+      <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
+      <guid>http://localhost:4321/post/2020-12-01-r-rmarkdown/</guid>
+      <description>&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;div id=&#34;r-markdown&#34; class=&#34;section level1&#34;&gt;&#xD;&#xA;&lt;h1&gt;R Markdown&lt;/h1&gt;&#xD;&#xA;&lt;p&gt;This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see &lt;a href=&#34;http://rmarkdown.rstudio.com&#34; class=&#34;uri&#34;&gt;http://rmarkdown.rstudio.com&lt;/a&gt;.&lt;/p&gt;&#xD;&#xA;&lt;p&gt;You can embed an R code chunk like this:&lt;/p&gt;&#xD;&#xA;&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;summary(cars)&#xD;&#xA;##      speed           dist       &#xD;&#xA;##  Min.   : 4.0   Min.   :  2.00  &#xD;&#xA;##  1st Qu.:12.0   1st Qu.: 26.00  &#xD;&#xA;##  Median :15.0   Median : 36.00  &#xD;&#xA;##  Mean   :15.4   Mean   : 42.98  &#xD;&#xA;##  3rd Qu.:19.0   3rd Qu.: 56.00  &#xD;&#xA;##  Max.   :25.0   Max.   :120.00&#xD;&#xA;fit &amp;lt;- lm(dist ~ speed, data = cars)&#xD;&#xA;fit&#xD;&#xA;## &#xD;&#xA;## Call:&#xD;&#xA;## lm(formula = dist ~ speed, data = cars)&#xD;&#xA;## &#xD;&#xA;## Coefficients:&#xD;&#xA;## (Intercept)        speed  &#xD;&#xA;##     -17.579        3.932&lt;/code&gt;&lt;/pre&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;div id=&#34;including-plots&#34; class=&#34;section level1&#34;&gt;&#xD;&#xA;&lt;h1&gt;Including Plots&lt;/h1&gt;&#xD;&#xA;&lt;p&gt;You can also embed plots. See Figure &lt;a href=&#34;#fig:pie&#34;&gt;1&lt;/a&gt; for example:&lt;/p&gt;&#xD;&#xA;&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;par(mar = c(0, 1, 0, 1))&#xD;&#xA;pie(&#xD;&#xA;  c(280, 60, 20),&#xD;&#xA;  c(&amp;#39;Sky&amp;#39;, &amp;#39;Sunny side of pyramid&amp;#39;, &amp;#39;Shady side of pyramid&amp;#39;),&#xD;&#xA;  col = c(&amp;#39;#0292D8&amp;#39;, &amp;#39;#F7EA39&amp;#39;, &amp;#39;#C4B632&amp;#39;),&#xD;&#xA;  init.angle = -50, border = NA&#xD;&#xA;)&lt;/code&gt;&lt;/pre&gt;&#xD;&#xA;&lt;div class=&#34;figure&#34;&gt;&lt;span style=&#34;display:block;&#34; id=&#34;fig:pie&#34;&gt;&lt;/span&gt;&#xD;&#xA;&lt;img src=&#34;http://localhost:4321/post/2020-12-01-r-rmarkdown/index.en_files/figure-html/pie-1.png&#34; alt=&#34;A fancy pie chart.&#34; width=&#34;672&#34; /&gt;&#xD;&#xA;&lt;p class=&#34;caption&#34;&gt;&#xD;&#xA;Figure 1: A fancy pie chart.&#xD;&#xA;&lt;/p&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;</description>
+    </item>
+  </channel>
+</rss>
